@@ -22,7 +22,6 @@ export class ShoppingEditComponent implements OnInit {
        const inAmt = this.amtInputRef.nativeElement.value; 
        const newIngradient  = new Ingradient(inName,inAmt);
        this.ingardientAdded.emit(newIngradient);
-    }
-       
+    }       
     
 }
